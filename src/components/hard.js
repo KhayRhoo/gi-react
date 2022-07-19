@@ -29,8 +29,8 @@ const People = () => {
     
     return (
         <div>
-            {list.map((info) => (
-                <BasicInfo name={info.name} age={info.number} dateOfBirth={info.birthdate} number={info.location} />
+            {list.map((person) => (
+                <BasicInfo name={person.name} age={person.number} dateOfBirth={person.birthdate} number={person.location} />
             ))}
         </div>
     );
